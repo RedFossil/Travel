@@ -1,0 +1,468 @@
+body {
+   position: absolute;
+   margin: 0%;
+   width: 100%;
+   height: 100%;
+   background: #E5E5E5;
+}
+
+header {
+   position: absolute;
+   width: 1440px;
+   height: 90px;
+   left: 0px;
+   right: 0px;
+   margin: 0px auto;
+   background: rgba(242, 120, 92, 0.7);
+   box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+   z-index: 1;
+}
+
+.logo{
+   position: absolute;
+   width: 216px;
+   height: 30px;
+   left: 120px;
+   top: 30px;
+}
+
+.travel_portal {
+   position: absolute;
+   width: 180px;
+   height: 30px;
+   left: 36px;
+   bottom: 2px;
+   font-family: 'Magra';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 32px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+.navigation {
+   position: absolute;
+   display: flex;
+   justify-content: space-between;
+   width: 527px;
+   height: 20px;
+   left: 494px;
+   top: 35px;
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   color: #FFFFFF;
+}
+
+.frame_1 {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 103px;
+   height: 40px;
+   left: 1217px;
+   top: 25px;
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   color: #FFFFFF;
+   background: #0D606F;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+   border-radius: 10px;
+}
+
+.background {
+   position: absolute;
+   width: 1440px;
+   height: 765px;
+   left: 0px;
+   right: 0px;
+   margin: 0px auto;
+   z-index: 0;
+}
+
+.global_section {
+   position: absolute;
+   width: 1440px;
+   height: 765px;
+   left: 0px;
+   right: 0px;
+   margin: 0px auto;
+}
+
+.global_text_1 {
+   position: absolute;
+   width: 892px;
+   height: 422px;
+   left: 120px;
+   top: 122px;
+   font-family: 'Aleo';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 80px;
+   line-height: 96px;
+   color: #FFFFFF;
+}
+
+.global_text_2 {
+   position: absolute;
+   width: 892px;
+   height: 24px;
+   left: 120px;
+   top: 346px;
+   font-family: 'Aleo';
+   font-style: italic;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+   color: #FFFFFF;
+}
+
+.global_search {
+   position: absolute;
+   width: 892px;
+   height: 95px;
+   left: 120px;
+   top: 416px;
+   background: rgba(255, 255, 255, 0.7);
+   border-radius: 16px;
+}
+
+.search_text_1 {
+   position: absolute;
+   width: 560px;
+   height: 22px;
+   left: 40px;
+   top: 32px;
+   font-family: 'Aleo';
+   font-style: italic;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 29px;
+   color: #F2785C;
+}
+
+.frame_2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   width: 228px;
+   height: 59px;
+   left: 766px;
+   top: 434px;
+   background: #0D606F;
+   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+   border-radius: 10px;
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 32px;
+   color: #FFFFFF;
+}
+
+.steps {
+   position: absolute;
+   width: 1440px;
+   height: 247px;
+   top: 845px;
+   left: 0px;
+   right: 0px;
+   margin: 0 auto;
+}
+
+.steps_text_1 {
+   position: absolute;
+   width: 1440px;
+   height: 53px;
+   text-align: center;
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 53px;
+   color: #F2785C;
+}
+
+.menu  {
+   display: flex;
+   justify-content: space-around;
+   position: absolute;
+   width: 1440px;
+   height: 247px;
+   top: 100px;
+   left: 0px;
+   right: 0px;
+   margin: 0 auto;
+}
+
+.cycle {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 100px;
+   height: 100px;
+   background-color: #F2785C;
+   border-radius: 16px;
+   order: 0;
+}
+
+.calendar {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 100px;
+   height: 100px;
+   background-color: #F2785C;
+   border-radius: 16px;
+   order: 1;
+}
+
+.plane {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 100px;
+   height: 100px;
+   background-color: #F2785C;
+   border-radius: 16px;
+   order: 2;
+}
+
+.cycle_text {
+   position: absolute;
+   width: 247px;
+   height: 24px;
+   left: 120px;
+   top: 223px;
+   font-family: 'Aleo';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   color: #0D606F;
+}
+
+.calendar_text {
+   position: absolute;
+   width: 222px;
+   height: 24px;
+   top: 223px;
+   left: 0px;
+   right: 0px;
+   margin: 0 auto;
+   font-family: 'Aleo';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   color: #0D606F;
+}
+
+.plane_text {
+   position: absolute;
+   width: 317px;
+   height: 24px;
+   top: 223px;
+   left: 1043px;
+   font-family: 'Aleo';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   color: #0D606F;
+}
+
+.destinations_text {
+   position: absolute;
+   width: 1440px;
+   height: 53px;
+   left: 0px;
+   right: 0px;
+   margin: 0 auto;
+   text-align: center;
+   top: 1189px;
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 53px;
+   color: #F2785C;
+}
+
+.destinations {
+   display: flex;
+   gap: 60px;
+   position: absolute;
+   width: 2520px;
+   height: 800px;
+   left: 0px;
+   right: 0px;
+   margin: 0 auto;
+   top: 1288px;
+}
+
+.spain {
+   border-radius: 16px;
+}
+
+.japan {
+   border-radius: 16px;
+}
+
+.usa {
+   border-radius: 16px;
+}
+
+.buttons {
+   display: flex;
+   gap: 10px;
+   position: absolute;
+   width: 80px;
+   height: 20px;
+   left: 0px;
+   right: 0px;
+   margin: 0 auto;
+   top: 2112px;
+}
+
+.ellips_1 {
+   width: 20px;
+   height: 20px;
+   border-radius: 10px;
+   background: #F2785C;
+   order: 0;
+}
+
+.ellips_2 {
+   width: 20px;
+   height: 20px;
+   border-radius: 10px;
+   background: #F2785C;
+   order: 1;
+}
+
+.ellips_3 {
+   width: 20px;
+   height: 20px;
+   border-radius: 10px;
+   background: #F2785C;
+   order: 2;
+}
+
+.frame_3 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   width: 228px;
+   height: 60px;
+   left: 0px;
+   right: 0px;
+   margin: 0 auto;
+   top: 2172px;
+   background: #0D606F;
+   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+   border-radius: 10px;
+   gap: 10px;
+}
+
+.find_more {
+   width: 116px;
+   height: 32px;
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 32px;
+   color: #FFFFFF;
+   order: 1;
+}
+
+.pointer {
+   order: 0;
+   width: 36px;
+   height: 23px;
+}
+
+.travel_text {
+   position: absolute;
+   width: 335px;
+   height: 53px;
+   left: 0px;
+   right: 0px;
+   margin: 0 auto;
+   top: 2311px;
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 53px;
+   color: #F2785C;
+}
+
+.background_1 {
+   position: absolute;
+   width: 1440px;
+   height: 1270px;
+   top: 2404px;
+   left: 0px;
+   right: 0px;
+   margin: 0px auto;
+   background: rgba(255, 255, 255, 0.7);
+   z-index: 1;
+}
+
+.back {
+   position: absolute;
+   width: 1440px;
+   height: 1331px;
+   left: 0px;
+   right: 0px;
+   margin: 0px auto;
+   top: 2404px;
+   z-index: 0;
+}
+
+.story_1 {
+   position: absolute;
+   width: 1200px;
+   height: 250px;
+   left: 0px;
+   right: 0px;
+   margin: 0 auto;
+   top: 2444px;
+}
+
+.story_2 {
+   position: absolute;
+   width: 1200px;
+   height: 250px;
+   left: 0px;
+   right: 0px;
+   margin: 0 auto;
+   top: 2724px;
+}
+
+.story_3 {
+   position: absolute;
+   width: 1200px;
+   height: 250px;
+   left: 0px;
+   right: 0px;
+   margin: 0 auto;
+   top: 3004px;
+}
+
+.story_4 {
+   position: absolute;
+   width: 1200px;
+   height: 250px;
+   left: 0px;
+   right: 0px;
+   margin: 0 auto;
+   top: 3284px;
+}
